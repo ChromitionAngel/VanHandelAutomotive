@@ -1,22 +1,35 @@
+#header-contact {
+    padding: 10px 50px 0px 50px;
+}
 #appointment {
     background-color: transparent;
     border-width: 4px;
     border-color: #6666FF;
+    border-radius: 8px;
     color: #6666FF;
-    font-size: 24px;
+    float: right;   
+    text-transform: uppercase;
+    padding: 0px 5px 5px 5px;
+    width: 100%;
+    top: 0px;
+    margin-top: 0px;
 }
-
 #header-contact .col-lg-6 ul{
     font-size: 20px;
     list-style: none;
-}
-#header-contact input{
     float: right;
-    padding-right: 0px;
+    padding: 10px 0px 0px 0px;
 }
+#header-contact .input-group{
+    float: right;
+    width: 100%;
+}
+#header-contact .input-group input{
+    font-size: 20px;
+} 
 
 
-#header .col-lg-6 {
+#header-nav .col-lg-6 {
     padding: 0px 75px 0px 75px;
 }
 #header nav{
