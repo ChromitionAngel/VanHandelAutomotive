@@ -88,16 +88,15 @@
 #support-bar .col-lg-12 {
     padding: 0;
 }
-#support-bar ul{
-    width: 100%;
-}
-#support-bar li {
+#support-bar .col-lg-3 a {
     color: #fff;
-    width: 24%;
     margin: 0;
-    padding: 0px 0px 0px 0px;
+    padding: 0px 25px 0px 25px;
     align-content: center;
     text-align: center;
+}
+#support-bar .col-lg-3 a:hover {
+    text-decoration: none;
 }
 
 
