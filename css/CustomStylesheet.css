@@ -38,8 +38,16 @@
     background-color: #6666FF;
     color: white;
     align-content: center;
+    margin-bottom: 0px;
+    border-width: 0;
+    border-radius: 0;
 }
-
+#header-nav .col-lg-12{
+    padding: 0;
+}
+#header nav ul{
+    align-content: center;
+}
 #header nav li {
     margin-right: 75px;
     color: white;
@@ -58,7 +66,11 @@
 
 /*Carousel*/
 .carousel-inner {
-    height: 750px;    
+    height: 750px; 
+    margin: 0;
+}
+#carousel .col-lg-12 {
+    padding: 0px;
 }
 
 
@@ -70,8 +82,23 @@
 
 
 
-
-
+#support-bar {
+    background-color: #6666FF;
+}
+#support-bar .col-lg-12 {
+    padding: 0;
+}
+#support-bar ul{
+    width: 100%;
+}
+#support-bar li {
+    color: #fff;
+    width: 24%;
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    align-content: center;
+    text-align: center;
+}
 
 
 
