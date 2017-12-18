@@ -14,11 +14,14 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        
+        <!-- Place this tag in your head or just before your close body tag. -->
+<script src="https://apis.google.com/js/platform.js" async defer></script>
 
     </head>
     <body>
         <header id="header"> 
-            <div class="container-fluid">
+            <div class="container-fluid hidden-sm hidden-xs">
                 <div class="row" id="header-contact">
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                         <img src="Images/Screenshot%20(310).png" width="150px;">
@@ -60,20 +63,23 @@
             
             <div class="container-fluid">
                 <div class="row" id="header-nav">
-                    <div class="col-lg-12 col-md-12 hidden-xs hidden-sm">
+                    <div class="col-lg-12 col-md-12">
                         <nav class="navbar navbar-default navbar-center">
                             <!-- Brand and toggle get grouped for better mobile display -->
-                            <div class="navbar-header">
-                              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                              </button>
+                            <div class="navbar-header" style="padding: 10px 0px 10px 0px;">
+                                
+                                <img src="Images/Screenshot%20(310).png" width="75px;" class="hidden-lg hidden-md">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
                             </div>
 
                             <div class="collapse navbar-collapse navbar-center" id="bs-example-navbar-collapse-1">
                               <ul class="nav navbar-nav navbar-center">
+                                  <li></li>
                                  <li class="dropdown">
                                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><h3>Home</h3></a>
                                   <ul class="dropdown-menu">
@@ -86,7 +92,7 @@
                                     <li><a href="#">One more separated link</a></li>
                                   </ul>
                                 </li>
-                                <li><h2>/</h2></li>
+                                <li class="divider-vertical"></li>
                                 <li class="dropdown">
                                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><h3>services</h3></a>
                                   <ul class="dropdown-menu">
@@ -99,7 +105,7 @@
                                     <li><a href="#">One more separated link</a></li>
                                   </ul>
                                 </li>
-                                <li><h2>/</h2></li>
+                                <li class="divider-vertical"></li>
                                 <li class="dropdown">
                                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><h3>about us</h3></a>
                                   <ul class="dropdown-menu">
@@ -112,7 +118,7 @@
                                     <li><a href="#">One more separated link</a></li>
                                   </ul>
                                 </li>
-                                <li><h2>/</h2></li>
+                                <li class="divider-vertical"></li>
                                 <li class="dropdown">
                                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><h3>directions</h3></a>
                                   <ul class="dropdown-menu">
@@ -125,7 +131,7 @@
                                     <li><a href="#">One more separated link</a></li>
                                   </ul>
                                 </li>
-                                <li><h2>/</h2></li>
+                                <li class="divider-vertical"></li>
                                 <li class="dropdown">
                                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><h3>contact us</h3></a>
                                   <ul class="dropdown-menu">
@@ -200,21 +206,121 @@
         <div id="support-bar">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-3 col-md-3">
+                    <div class="col-lg-3 col-md-3 col-sm-6">
                         <a href="#"><h3>Learn More About Us</h3></a>
                     </div>
-                    <div class="col-lg-3 col-md-3">
+                    <div class="col-lg-3 col-md-3 col-sm-6">
                         <a href="#"><h3>Call Us Here</h3></a>
                     </div>
-                    <div class="col-lg-3 col-md-3">
+                    <div class="col-lg-3 col-md-3 col-sm-6">
                         <a href="#"><h3>ASE Certifications</h3></a>
                     </div>
-                    <div class="col-lg-3 col-md-3">
+                    <div class="col-lg-3 col-md-3 col-sm-6">
                         <a href="#"><h3>The Shop</h3></a>
                     </div>
                 </div>
             </div>
         </div>
+        
+    
+        <div id="AboutUsMain">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <h3>business hours</h3>
+                        <h4>Monday - Friday: 8am - 5pm</h4>
+                        <h4>Saturday - Sunday: Closed</h4>
+                        <p>127 W Sisters Park Drive Sisters, OR 97759</p>
+                        <button id="appointment"><h3>make an appointment</h3></button> 
+                        <br />
+                        <div>
+                        <ul class="list hidden-sm hidden-xs" style="margin-top: 90px;">
+                            <li class="bold">home</li>
+                            <li class="bold">contact us</li>
+                            <li>
+                                <ul class="list">
+                                    <li>Make An Appointment</li>
+                                    <li>Request A Quote</li>                 <li>Contact Us</li>
+                                </ul>
+                            </li>
+                            <li class="bold">Directions</li>
+                            <li class="bold">services</li>
+                            <li>
+                                <ul class="list">
+                                    <li>Services Overview</li>
+                                    <li>Factory Maintenance</li>
+                                    <li> Brakes </li>
+                                    <li> Oil Change</li>
+                                    <li>Tire Service</li>
+                                </ul>
+                            </li>
+                            <li class="bold">about</li>
+                        </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                        <div class="row">
+                            <h1 style="text-decoration: underline;">Who We Are</h1>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nullaLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla  </p>
+                                </div>
+                                <div class="col-lg-6 col-md-6 hidden-sm hidden-xs">
+                                    <img src="Images/IMG_8897.JPG" style="width: 100%;">
+                                </div>
+                            </div>
+                            <br />
+                            <hr />
+                            <br />
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <img src="...">
+                                    <p style="text-align: right;">All our members are ASE Certified and we are a Certified Service Center
+                                    </p>
+                                </div>
+                                <div class="col-lg-6 col-md-6 hidden-sm hidden-xs">
+                                    <img src="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
         
     </body>

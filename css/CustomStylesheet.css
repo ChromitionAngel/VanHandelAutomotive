@@ -1,3 +1,13 @@
+/* custom classes*/
+.bold {
+    font-weight: bold;
+}
+
+
+
+
+
+
 #header-contact {
     padding: 10px 50px 0px 50px;
 }
@@ -47,9 +57,10 @@
 }
 #header nav ul{
     align-content: center;
+    width: 100%;
 }
 #header nav li {
-    margin-right: 75px;
+    margin-right: 5%;
     color: white;
     align-content: center;
 }
@@ -74,12 +85,29 @@
 }
 
 
+.navbar .divider-vertical {
+    height: 50px;
+    margin: 0 9px;
+    top: 20px;
+    transform: rotate(15deg);
+    border-right: 1.5px solid #ffffff;
+    border-left: 1.5px solid #f2f2f2;
+}
 
+.navbar-inverse .divider-vertical {
+    border-right-color: #222222;
+}
 
-
-
-
-
+@media (max-width: 767px) {
+    .navbar-collapse .nav > .divider-vertical {
+        display: none;
+     }
+}
+@media (max-width: 1294px) {
+    #header .col-lg-6 .col-lg-12 ul li {
+        float: right;
+    }
+}
 
 
 #support-bar {
@@ -99,8 +127,19 @@
     text-decoration: none;
 }
 
-
-
+#AboutUsMain h3 {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+#AboutUsMain button {
+    width: 80%;
+    float: left;
+}
+#AboutUsMain ul {
+    list-style: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
 
 
 
