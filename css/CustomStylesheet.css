@@ -60,7 +60,6 @@
     width: 100%;
 }
 #header nav li {
-    margin-right: 5%;
     color: white;
     align-content: center;
 }
@@ -143,7 +142,12 @@
 
 
 
-
+footer {
+    background-color: saddlebrown;
+    padding: 25px;
+    text-align: right;
+    color: white;
+}
 
 
 
