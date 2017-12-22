@@ -32,17 +32,8 @@
     -webkit-box-shadow: none;
     width: 100%; 
 }
-#header-nav .col-lg-12{
-    padding: 0;
-}
-#header nav li {
-    color: white;
-}
 #header nav li h3{ 
     text-transform: uppercase;
-}
-#header nav li h2 { 
-    padding-top: 10px;
 }
 
 .navbar .divider-vertical {
@@ -61,13 +52,11 @@
     color: white;
     text-align: center;
 }
-#header-contact {
-    padding: 10px 50px 0px 50px;
-}
-#header-contact .col-lg-6 ul{
+#header-contact .col-lg-8 ul{
     font-size: 20px;
     list-style: none;
     padding: 10px 0px 0px 0px;
+    text-align: right;
 }
 #header-contact .input-group{
     width: 100%;
