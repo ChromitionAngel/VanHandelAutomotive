@@ -1,28 +1,31 @@
 /* custom classes*/
+
 .bold {
     font-weight: bold;
 }
-
-
-
-
-
-
+#header-top-global {
+    background-color: #8B1B1B;
+    color: white;
+    text-align: center;
+}
 #header-contact {
     padding: 10px 50px 0px 50px;
 }
 #appointment {
     background-color: transparent;
     border-width: 4px;
-    border-color: #6666FF;
+    border-color: #4C1B1B;
     border-radius: 8px;
-    color: #6666FF;
+    color: #4C1B1B;
     float: right;   
     text-transform: uppercase;
+    text-decoration: none;
     padding: 0px 5px 5px 5px;
     width: 100%;
-    top: 0px;
-    margin-top: 0px;
+    margin: 20px 0px 15px 0px;
+}
+#appointment:hover {
+    background-color: #BD8D46;
 }
 #header-contact .col-lg-6 ul{
     font-size: 20px;
@@ -45,10 +48,10 @@
 #header nav{
     padding:  0px 50px 0px 50px;
     background-image: none;
-    background-color: #6666FF;
+    background-color: #4C1B1B;
     color: white;
     align-content: center;
-    margin-bottom: 0px;
+    margin: 5px 0px 0px 0px;
     border-width: 0;
     border-radius: 0;
 }
@@ -93,24 +96,9 @@
     border-left: 1.5px solid #f2f2f2;
 }
 
-.navbar-inverse .divider-vertical {
-    border-right-color: #222222;
-}
-
-@media (max-width: 767px) {
-    .navbar-collapse .nav > .divider-vertical {
-        display: none;
-     }
-}
-@media (max-width: 1294px) {
-    #header .col-lg-6 .col-lg-12 ul li {
-        float: right;
-    }
-}
-
 
 #support-bar {
-    background-color: #6666FF;
+    background-color: #4C1B1B;
 }
 #support-bar .col-lg-12 {
     padding: 0;
@@ -142,13 +130,42 @@
 
 
 
+
 footer {
-    background-color: saddlebrown;
+    background-color: #4C1B1B;
     padding: 25px;
     text-align: right;
     color: white;
 }
 
 
+.navbar-inverse .divider-vertical {
+    border-right-color: #222222;
+}
 
+
+.sometimesUp {
+  background-color: rgba(155,155,155,.2);
+  position: fixed;
+  bottom: 10px;
+  right: -45px;
+  border-radius: 5px 0 0 5px;
+  padding: 4px 10px;
+  height: 40px;
+  font-size: 25px;
+  -webkit-transition: right 0.5s;
+  transition: right 0.5s;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+    .navbar-collapse .nav > .divider-vertical {
+        display: none;
+     }
+}
+@media (max-width: 1294px) {
+    #header .col-lg-6 .col-lg-12 ul li {
+        float: right;
+    }
+}
 

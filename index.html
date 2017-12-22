@@ -14,12 +14,26 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/CustomBehaviors.js"></script>
         
         <!-- Place this tag in your head or just before your close body tag. -->
 <script src="https://apis.google.com/js/platform.js" async defer></script>
 
     </head>
     <body>
+        <div id="header-top-global">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">We do automotive work too! Call 1-800- AWESOME now!
+                    <a id="span-onClose" style="color: white;">
+                        <span style="padding-left: 100px;" class="glyphicon glyphicon-ok"></span>    
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </div>
         <header id="header"> 
             <div class="container-fluid hidden-sm hidden-xs">
                 <div class="row" id="header-contact">
@@ -69,28 +83,18 @@
                             <div class="navbar-header" style="padding: 10px 0px 10px 0px;">
                                 
                                 <img src="Images/Screenshot%20(310).png" width="75px;" class="hidden-lg hidden-md">
-                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded=" false">
                                     <span class="sr-only">Toggle navigation</span>
                                     <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
+                                    <span style="margin-top: 10px;" class="icon-bar"></span>
+                                    <span style="margin-top: 10px;" class="icon-bar"></span>
                                 </button>
                             </div>
 
                             <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
                               <ul class="nav navbar-nav navbar-center">
-                                  <li></li>
-                                 <li class="dropdown">
-                                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><h3>Home</h3></a>
-                                  <ul class="dropdown-menu">
-                                    <li><a href="#">Action</a></li>
-                                    <li><a href="#">Another action</a></li>
-                                    <li><a href="#">Something else here</a></li>
-                                    <li role="separator" class="divider"></li>
-                                    <li><a href="#">Separated link</a></li>
-                                    <li role="separator" class="divider"></li>
-                                    <li><a href="#">One more separated link</a></li>
-                                  </ul>
+                                 <li>
+                                  <a href="#"><h3>Home</h3></a>
                                 </li>
                                 <li class="divider-vertical"></li>
                                 <li class="dropdown">
@@ -169,22 +173,21 @@
                             <div class="item active">
                               <img src="Images/IMG_8890%20(1).JPG" alt="Chad VanHandel">
                               <div class="carousel-caption">
-                                ...
+                                Chad VanHandel
                               </div>
                             </div>
                             <div class="item">
                               <img src="Images/IMG_8891.JPG" alt="Tom VanHandel">
                               <div class="carousel-caption">
-                                ...
+                                Tom VanHandel
                               </div>
                             </div>
                               <div class="item">
                               <img src="Images/IMG_8891.JPG" alt="Tom VanHandel">
                               <div class="carousel-caption">
-                                ...
+                                Tom VanHandel
                               </div>
-                            </div>
-                            ...
+                            </div>  
                           </div>
 
                           <!-- Controls -->
@@ -206,16 +209,16 @@
         <div id="support-bar">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
                         <a href="#"><h3>Learn More About Us</h3></a>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
                         <a href="#"><h3>Call Us Here</h3></a>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
                         <a href="#"><h3>ASE Certifications</h3></a>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
                         <a href="#"><h3>The Shop</h3></a>
                     </div>
                 </div>
@@ -227,35 +230,37 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <h3>business hours</h3>
-                        <h4>Monday - Friday: 8am - 5pm</h4>
-                        <h4>Saturday - Sunday: Closed</h4>
-                        <p>127 W Sisters Park Drive Sisters, OR 97759</p>
-                        <button id="appointment"><h3>make an appointment</h3></button> 
-                        <br />
+                        <div><button id="appointment"><h3>make an appointment</h3></button>
+                        </div>
                         <div>
-                        <ul class="list hidden-sm hidden-xs" style="margin-top: 90px;">
-                            <li class="bold">home</li>
-                            <li class="bold">contact us</li>
-                            <li>
-                                <ul class="list">
-                                    <li>Make An Appointment</li>
-                                    <li>Request A Quote</li>                 <li>Contact Us</li>
-                                </ul>
-                            </li>
-                            <li class="bold">Directions</li>
-                            <li class="bold">services</li>
-                            <li>
-                                <ul class="list">
-                                    <li>Services Overview</li>
-                                    <li>Factory Maintenance</li>
-                                    <li> Brakes </li>
-                                    <li> Oil Change</li>
-                                    <li>Tire Service</li>
-                                </ul>
-                            </li>
-                            <li class="bold">about</li>
-                        </ul>
+                            <h3>business hours</h3>
+                            <h4>Monday - Friday: 8am - 5pm</h4>
+                            <h4>Saturday - Sunday: Closed</h4>
+                            <p>127 W Sisters Park Drive Sisters, OR 97759</p>
+                            <div>
+                            <ul class="list hidden-sm hidden-xs">
+                                <li class="bold">home</li>
+                                <li class="bold">contact us</li>
+                                <li>
+                                    <ul class="list">
+                                        <li>Make An Appointment</li>
+                                        <li>Request A Quote</li>                 <li>Contact Us</li>
+                                    </ul>
+                                </li>
+                                <li class="bold">Directions</li>
+                                <li class="bold">services</li>
+                                <li>
+                                    <ul class="list">
+                                        <li>Services Overview</li>
+                                        <li>Factory Maintenance</li>
+                                        <li> Brakes </li>
+                                        <li> Oil Change</li>
+                                        <li>Tire Service</li>
+                                    </ul>
+                                </li>
+                                <li class="bold">about</li>
+                            </ul>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
@@ -274,7 +279,7 @@
                             <br />
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="text-align: right;">
-                                    <img src="Images/ASE_main_logo.jpg" width="100px;">
+                                    <img src="Images/ASE-Certification-107x41.png" width="100px;">
                                     <img src="Images/auto-value-logo-113x40.png" width="100px;">
                                     <p style="text-align: right;">All our members are ASE Certified and we are a Certified Service Center
                                     </p>
@@ -321,14 +326,14 @@
         
         <br>
         
-        
+            <div class="sometimesUp" onclick="scrollToThis('top')"><span class="glyphicon glyphicon-chevron-up" aria-hidden="true" aria-label="Scroll to top"></span></div>
         <footer>
             <div id="footer">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-lg-12 col-md-12">
                             <ul class="list list-inline">
-                                <li><img src="Images/ASE_main_logo.jpg" width="50px;">
+                                <li><img src="Images/ASE-Certification-107x41.png">
                                 </li>
                                 <li><img src="Images/auto-value-logo-113x40.png">
                                 </li>
@@ -343,15 +348,7 @@
                     </div>
                 </div>
             </div>
-        </footer>     
-        
-        
-        
-        
-        
-        
-        
-        
+        </footer>         
         
         
         
