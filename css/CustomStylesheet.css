@@ -85,6 +85,11 @@
 #header-nav ul li a {
     color: white;
 }
+#header nav a h1 {
+    color:white;
+    margin-top: 0px;
+    padding-top: 0px;
+}
 
 /*Carousel*/
 .carousel-inner {
