@@ -13,10 +13,13 @@
     text-transform: uppercase;
     text-decoration: none;
     padding: 0px 5px 5px 5px;
-    width: 80%;
+    width: 100%;
 }
 #appointment:hover {
     background-color: #BD8D46;
+}
+#appointment p {
+    font-size: 18px;
 }
 
 /*header area*/
@@ -32,14 +35,16 @@
     -webkit-box-shadow: none;
     width: 100%; 
 }
-#header nav li h3{ 
+#header nav li p { 
     text-transform: uppercase;
+    font-size: 24px;
+    padding-top: 10px
 }
 
 .navbar .divider-vertical {
     height: 30px;
     margin: 0 13px;
-    top: 30px;
+    top: 20px;
     border-right: 1px solid #ffffff;
     border-left: 1px solid #f2f2f2;
 }
@@ -83,14 +88,32 @@
 
 /*Carousel*/
 .carousel-inner {
-    height: 750px; 
+    height: auto;
     margin: 0;
 }
 #carousel .col-lg-12 {
     padding: 0px;
 }
+.carousel .item {
+  height: 800px;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slide0{
+    background-image: url('../Images/IMG_8891.JPG');
+    background-position: 50% 30%;
+}
+.slide1{
+    background-image: url('../Images/IMG_8892.JPG');
+    background-position: 50% 30%;
+}
+.slide2{
+    background-image: url('../Images/IMG_8894.JPG');
+    background-position: 50% 30%;
+}
 
-
+/*SUPPORT*/
 
 
 #support-bar {
@@ -124,9 +147,19 @@
     text-transform: uppercase;
 }
 
+/*repair quotes*/
+
+#RepairQuotes {
+    background-color: #4C1B1B;
+    height: 500px;
+}
 
 
 
+
+
+
+/*footer*/
 footer {
     background-color: #4C1B1B;
     padding: 25px;
@@ -155,10 +188,29 @@ footer {
     .navbar-collapse .nav > .divider-vertical {
         display: none;
      }
+    .carousel .item {
+      height: 450px;
+    }
+}
+@media (max-width: 991px){
+    #header-nav ul li a p{
+        font-size: 20px;
+    }  
+    .navbar .divider-vertical {
+        display: none;
+    }
+}
+@media (max-width: 1199px) {
+    #header-nav .navbar-default {  
+        padding-left: 0px;
+    }
 }
 @media (max-width: 1294px) {
     #header .col-lg-6 .col-lg-12 ul li {
         float: right;
+    }
+    #header nav li p { 
+        font-size: 20px;
     }
 }
 
