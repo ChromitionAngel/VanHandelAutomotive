@@ -1,38 +1,10 @@
-$('body').scrollspy({ target: '#navbar'});
 $(document).ready(function(){
-  $(document).on("scroll",function(){
-    if ($(".navbar-toggle").css("display") == "none") {
-      if($(document).scrollTop()>$(".navbar").outerHeight(true)){/*when scrolled down*/
-        var heightNav=$('.navbar').outerHeight();
-        if($(".navbar").css("position") != "fixed"){
-          $(".navbar").css({
-                          "top" : -heightNav,
-                          "position" : "fixed",
-                          "padding-top" : "0"
-                         });
-          $(".navbar").animate({top: 0}, 250);
-          $(".navbar-header").css("width","auto");
-        }
-        $(".carousel").css("margin-top",heightNav);
-        $(".sometimesUp").css("right","0");
-      } else { /*when scrolled up */
-        $(".navbar").css({
-                          "position" : "relative",
-                          "padding-top" : "12px"
-                         });
-        $(".carousel").css("margin-top","0");
-        $(".navbar-header").css("width","100%");
-        $(".sometimesUp").css("right","-45px");
-      }
-    }
-      
-  });
   $("#linkSupport").dblclick(function() {
-    window.location.replace("http://team955.org/pages/support.php");
+    window.location.replace("/pages/about");
   });
 
-  $("#linkAbout").dblclick(function() {
-    window.location.replace("http://team955.org/pages/about.php");
+  $("#LinkAbout").dblclick(function() {
+    window.location.replace("/Users/miles/Desktop/GitHub/VanHandelAutomotive/pages/about.html");
   });
 })/*end doc.ready*/;
 
@@ -43,3 +15,16 @@ function scrollToThis(thing){ /*input "top" for scroll to top */
   $("html,body").animate({"scrollTop":$(thing).offset().top}, 200);
     
 };
+function openTeam(evt, teamName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(teamName).style.display = "block";
+    evt.currentTarget.className += " active";
+}

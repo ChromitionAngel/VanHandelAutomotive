@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Van handel Auto</title>
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+        
+        <link rel="stylesheet" href="../css/CustomStylesheet.css">
+        
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/CustomBehaviors.js"></script>
+        
+        <!-- Place this tag in your head or just before your close body tag. -->
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+
+    </head>
+    <body>
+        
+        <header id="header"> 
+            <div id="header-contact">
+                <div class="container hidden-sm hidden-xs">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                            <img src="../Images/Screenshot%20(310).png" width="125px;">
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-6 col-xs-6">
+                            <div class="row">
+                                <div class="col-lg-8 col-md-6">
+                                    <ul class="list">
+                                        <li><a>Work #</a></li>
+                                        <li><a>Phone #</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <button id="appointment" style="margin-top: 10px; height: 60px;"><p>make an appointment</p></button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class=" col-lg-offset-2 col-lg-10 col-md-10 col-md-offset-2">
+                                    <div class="input-group">
+                                      <input type="text" class="form-control" placeholder="Search for...">
+                                    </div><!-- /input-group -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+            <div id="header-nav">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12">
+                            <nav class="navbar navbar-default" role="navigation">
+                                <!-- Brand and toggle get grouped for better mobile display -->
+                                <div class="navbar-header" style="padding: 10px 0px 10px 0px;">
+                                    <a class="navbar-brand" href="#"><h1><b>Van Handel Automotive</b></h1></a>
+
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded=" false">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span style="margin-top: 10px;" class="icon-bar"></span>
+                                        <span style="margin-top: 10px;" class="icon-bar"></span>
+                                    </button>
+                                </div>
+
+                                <div class="collapse navbar-collapse navbar-default" id="bs-example-navbar-collapse-1">
+                                  <ul class="nav navbar-nav">
+                                     <li>
+                                      <a href="../index.html"><p>Home</p></a>
+                                    </li>
+                                    <li class="divider-vertical"></li>
+                                    <li class="dropdown">
+                                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><p>services</p></a>
+                                      <ul class="dropdown-menu">
+                                        <li><a href="#">Action</a></li>
+                                        <li><a href="#">Another action</a></li>
+                                        <li><a href="#">Something else here</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">Separated link</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">One more separated link</a></li>
+                                      </ul>
+                                    </li>
+                                    <li class="divider-vertical"></li>
+                                    <li class="dropdown">
+                                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><p>about us</p></a>
+                                      <ul class="dropdown-menu">
+                                        <li><a href="#">Action</a></li>
+                                        <li><a href="#">Another action</a></li>
+                                        <li><a href="#">Something else here</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">Separated link</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">One more separated link</a></li>
+                                      </ul>
+                                    </li>
+                                    <li class="divider-vertical"></li>
+                                    <li class="dropdown">
+                                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><p>directions</p></a>
+                                      <ul class="dropdown-menu">
+                                        <li><a href="#">Action</a></li>
+                                        <li><a href="#">Another action</a></li>
+                                        <li><a href="#">Something else here</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">Separated link</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">One more separated link</a></li>
+                                      </ul>
+                                    </li>
+                                    <li class="divider-vertical"></li>
+                                    <li class="dropdown">
+                                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><p>contact us</p></a>
+                                      <ul class="dropdown-menu">
+                                        <li><a href="#">Action</a></li>
+                                        <li><a href="#">Another action</a></li>
+                                        <li><a href="#">Something else here</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">Separated link</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">One more separated link</a></li>
+                                      </ul>
+                                    </li>
+                                  </ul><!--End nav List-->
+                                </div><!-- /.navbar-collapse -->
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        
+        <div id="AboutHeader">
+            <div class="transparentHead">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12">
+                            <h1><b>About Van Handel Automotive</b></h1>
+                            <br />
+                            <p>As a team, our continuous goal is to help every customer be in good hands and leave happy</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+        <div id="AboutCrew">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div>
+                            <button id="appointment" style="margin-top: 15px;margin-bottom: 10px;"><h3>make an appointment</h3></button>
+                        </div>
+                        <div>
+                            <h3>business hours</h3>
+                            <h4>Monday - Friday: 8am - 5pm</h4>
+                            <h4>Saturday - Sunday: Closed</h4>
+                            <p>127 W Sisters Park Drive Sisters, OR 97759</p>
+                            <div>
+                            <ul class="list hidden-sm hidden-xs">
+                                <li class="bold">home</li>
+                                <li class="bold">contact us</li>
+                                <li>
+                                    <ul class="list">
+                                        <li>Make An Appointment</li>
+                                        <li>Request A Quote</li>                 
+                                        <li>Contact Us</li>
+                                    </ul>
+                                </li>
+                                <li class="bold">Directions</li>
+                                <li class="bold">services</li>
+                                <li>
+                                    <ul class="list">
+                                        <li>Services Overview</li>
+                                        <li>Factory Maintenance</li>
+                                        <li> Brakes </li>
+                                        <li> Oil Change</li>
+                                        <li>Tire Service</li>
+                                    </ul>
+                                </li>
+                                <li class="bold">about</li>
+                            </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                        <div class="row">
+                            <h2 style="border-bottom: 1px solid #000">Meet The Crew</h2>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <!-- Nav tabs -->
+                                    <ul class="nav nav-tabs" role="tablist">
+                                        <li role="presentation" class="active"><a href="#Chad" aria-controls="Chad" role="tab" data-toggle="tab">Chad</a></li>
+                                        <li role="presentation"><a href="#Tom" aria-controls="Tom" role="tab" data-toggle="tab">Tom</a></li>
+                                        <li role="presentation"><a href="#Brian" aria-controls="Brian" role="tab" data-toggle="tab">Brian</a></li>
+                                        <li role="presentation"><a href="#Michael" aria-controls="Michael" role="tab" data-toggle="tab">Michael</a></li>
+                                        <li role="presentation"><a href="#Nathan" aria-controls="Nathan" role="tab" data-toggle="tab">Nathan</a></li>
+                                    </ul>
+
+                                    <!-- Tab panes -->
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane active" id="Chad">
+                                            <div class="tab-picture-0"></div>
+                                            <h3>Chad Van Handel</h3>
+                                            <p><b>Certifications:</b> ASE Master Technician</p>
+                                            <p><b>Hobbies:</b> Hunting and fishing</p>
+                                            <p><b>Job Title:</b> Owner, ASE Master Technician ASE, Certified Master Technician</p>
+                                            <p>Chad Van Handel was born and raised in La Grande Oregon. You might say he followed in his fathers footsteps and acquired a career in  auto motive repair. It started in high school where he was involved with 3 years of automotive technology.  After high school Chad attended and graduated from Chemeketa Community College where he obtained a technical degree of applied  science in Automotive Technology. Chad was then hired by Capital Auto Group in Salem, Oregon where he served as a technician repairing vehicles. Spending 15 years at Capital, Chad obtained multiple certifications.</p>
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane fade" id="Tom"><div class="tab-picture-1"></div>
+                                            <h3>Tom Van Handel</h3>
+                                            <p><b>Certifications:</b> ASE Certified Technician</p>
+                                            <p><b>Hobbies:</b> Hunting and fishing</p>
+                                            <p><b>Job Title:</b> Technician and Mechanic and Awesome Grandfather</p>
+                                            <p>
+                                                Tom’s desire to start a career in automotive repair began during his high school years in LaGrande Oregon while attempting to keep his MGA on the road. He spent many hours in auto shop class learning theory and basic skills.
+                                                <br />
+                                                After graduating from Denver Automotive and Diesel College in 1973, Tom married Cheryl and has remained happily married to her ever since.
+                                                <br />
+                                                For the next 24 years after college, Tom was employed at Lynch Motor Co. (GM dealer) in LaGrande as a technician and later as a service manager. During this time he raised three children while working through years of technological changes and completed numerous factory training courses as well as management training.
+                                                <br />
+                                                Tom and Cheryl moved to Central Oregon after their kids had grown up. Tom began working at the former Sisters Car Care in 2000 as a technician/manager. In the years following, Tom has become a grandfather to four terrific grandchildren. In March of 2007, Tom and Cheryl purchased the business and renamed it “Van Handel Automotive Inc”. Tom continues to work as a technician/owner and enjoys the challenges of today’s auto repair.
+                                            </p>
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane fade" id="Brian">
+                                            <div class="tab-picture-2"></div>
+                                            <h3>Brian Chapman</h3>
+                                            <p><b>Certifications:</b> ASE Parts Technician</p>
+                                            <p><b>Hobbies:</b> Spending time with his family</p>
+                                            <p><b>Job Title:</b> Service Manager</p>
+                                            <p>
+                                                Brian has been an experienced parts person for more than twenty years. Familiar with the local dealers and parts houses, Brian is able to procure even the most obscure part with ease while limiting down-time that may effect the ability for our customers to receive their vehicle in a timely manner. Working through these facilities, Brian is able to find the best parts at the best prices. Costly repairs can be minimized with routine maintenance and early diagnosis. There is no more appropriate saying than “an ounce of prevention is worth a pound of cure”.
+                                            </p>
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane fade" id="Michael">
+                                            <div class="tab-picture-3"></div>
+                                            <h3>Michael Geroge</h3>
+                                            <p><b>Certifications:</b> </p>
+                                            <p><b>Hobbies:</b> </p>
+                                            <p><b>Job Title:</b> </p>
+                                            <p>
+                                                
+                                            </p>
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane fade" id="Nathan">
+                                            <div class="tab-picture-"></div>
+                                            <h3>Nathan Hearing</h3>
+                                            <p><b>Certifications:</b> </p>
+                                            <p><b>Hobbies:</b> </p>
+                                            <p><b>Job Title:</b> </p>
+                                            <p>
+                                                
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="AboutDescription">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2 style="border-bottom: 1px solid #4C1B1B;">About Us</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12">
+                        <p>We have 40 plus years of combined automotive repair experience employing quality ASE certified master technicians equipped with the latest technology and diagnostic tools to service all foreign and domestic cars and light trucks. Our staff of professionals are dedicated to making your auto repair experience the best ever.
+                            <br />
+                            Van Handel Automotive was established in March of 2007. Formerly Sisters Car Care, this location has serviced the community of Sisters and the surrounding area for many years. We have given the shop a face lift and a new attitude.
+                            <br />
+                            We understand that your vehicle is a major investment. That is why we care for each customer’s vehicle as if it was our own. Come by and visit our clean and professional shop in Sisters, Oregon.</p>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <img src="../Images/Car%20Dude.jpg" width="100%;">
+                    </div>
+                </div>
+                <hr />
+                <div class="row">
+                    <div class="col-lg-12 col-sm-12">
+                        <p>We are ASE-Certified: ASE is short for the National Institute for Automotive Service Excellence. Since 1972 this industry recognized independent non-profit organization has worked to improve the quality of vehicle repair and service by testing and certifying automotive professionals.</p>
+                        <img src="../Images/ASE-Certification-107x41.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div id="Gallery">
+            <div class="container-fluid">
+                <div class="row">
+                
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        
+        
+        <footer>
+            <div id="footer">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12">
+                            <ul class="list list-inline">
+                                <li><button class="sometimesUp" onclick="scrollToThis('top')"><span class="glyphicon glyphicon-chevron-up" aria-hidden="true" aria-label="Scroll to top"></span></button></li>
+                                <li><img src="../Images/ASE-Certification-107x41.png">
+                                </li>
+                                <li><img src="../Images/auto-value-logo-113x40.png">
+                                </li>
+                                <li>
+                                    <p>Van Handel Automotive | 127 W Sisters Park Drive | Sisters, OR 97759
+                                        <br />
+                                        541-549-0416 | Contact Us
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>         
+        
+        
+        
+        
+    </body>
+</html>
