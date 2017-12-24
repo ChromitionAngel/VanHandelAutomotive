@@ -3,7 +3,12 @@
 .bold {
     font-weight: bold;
 }
-
+p {
+    font-family: "Times New Roman", Times, serif;
+}
+h1, h2, h3, h4, h5, a, i, b, li {
+    font-family: "Times New Roman", Times, serif;
+}
 #appointment {
     background-color: transparent;
     border-width: 4px;
@@ -21,7 +26,20 @@
 #appointment p {
     font-size: 18px;
 }
-
+#QuoteButton {
+    background-color: transparent;
+    border-width: 4px;
+    border-color: #9F1C1E;
+    border-radius: 8px;
+    color: whitesmoke; 
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0px 5px 5px 5px;
+    width: 100%;
+}
+#QuoteButton:hover {
+    background-color: #BD8D46;
+}
 /*header area*/
 #header nav{
     background-image: none;
@@ -48,9 +66,11 @@
     border-right: 1px solid #ffffff;
     border-left: 1px solid #f2f2f2;
 }
-
 .navbar-inverse .divider-vertical {
     border-right-color: #222222;
+}
+.navbar-brand {
+    padding-left: 100px;
 }
 #header-top-global {
     background-color: #8B1B1B;
@@ -90,6 +110,26 @@
     margin-top: 0px;
     padding-top: 0px;
 }
+#header .navbar-nav .dropdown-menu a {
+    color: black;
+} 
+
+
+
+.navbar-default .navbar-brand{
+    padding-left: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /*Carousel*/
 .carousel-inner {
@@ -106,16 +146,70 @@
   background-size: cover;
 }
 .slide0{
-    background-image: url('../Images/IMG_8891.JPG');
+    background-image: url('../Images/IMG_8897.JPG');
     background-position: 50% 30%;
 }
 .slide1{
-    background-image: url('../Images/IMG_8892.JPG');
+    background-image: url('../Images/IMG_8891.JPG');
     background-position: 50% 30%;
 }
 .slide2{
-    background-image: url('../Images/IMG_8894.JPG');
+    background-image: url('../Images/IMG_8890%20(1).JPG');
     background-position: 50% 30%;
+}
+
+.slide-intro-0 {
+    width: 700px;
+    height: 550px;
+    background-color: rgba(0, 0, 0, 0.4); 
+    background: rgba(0, 0, 0, 0.4);
+    padding: 50px;
+}
+.slide-intro-0 button {
+    margin-top: 150px;
+    background-color: blue;
+    background-image: none;
+}
+.slide-intro-1 {
+    width: 500px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.4); 
+    background: rgba(0, 0, 0, 0.4);
+    padding: 50px;
+}
+.slide-intro-1 #ShopTimes {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding: 25px;
+}
+.slide-intro-1 #ShopTimes h2{
+    text-align: center;
+    color: black;
+    border-bottom: 1px solid #000;
+}
+.slide-intro-1 #ShopTimes li{
+    color: black;
+    font-size: 20px;
+    list-style: none;
+    line-height: 50px;
+}
+
+
+
+
+
+
+
+
+.slide-intro-0 p {
+    font-size: 20px;
+}
+.slide-intro-0 i {
+    font-size: 22px;
+}
+.slide-intro-0 b {
+    font-size: 20px;
 }
 
 /*SUPPORT*/
@@ -154,11 +248,16 @@
 
 /*repair quotes*/
 
-#RepairQuotes {
+#Blog {
     background-color: #4C1B1B;
     height: 500px;
+    padding: 50px;
 }
-
+#Blog .col-lg-12 {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
 
 
 
@@ -172,14 +271,21 @@ footer {
     color: white;
 }
 
+/*Google maps Portion*/
+
+#GoogleMaps {
+    padding: 0px 50px 0px 50px;
+}
 
 
+/**/
 
 .sometimesUp {
-  background-color: rgba(155,155,155,.2);
+  background-color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,.9);
   position: fixed;
   bottom: 10px;
-  right: -45px;
+    right:0;
   border-radius: 5px 0 0 5px;
   padding: 4px 10px;
   height: 40px;
@@ -208,6 +314,12 @@ footer {
 @media (max-width: 1199px) {
     #header-nav .navbar-default {  
         padding-left: 0px;
+    }
+    .navbar-default .navbar-brand {
+        padding-left: 0px;
+    }
+    #GoogleMaps {
+        padding: 0px;
     }
 }
 @media (max-width: 1294px) {
