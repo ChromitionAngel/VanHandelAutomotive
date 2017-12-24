@@ -3,7 +3,7 @@
 .bold {
     font-weight: bold;
 }
-p {
+* {
     font-family: "Times New Roman", Times, serif;
 }
 h1, h2, h3, h4, h5, a, i, b, li {
@@ -80,7 +80,15 @@ h1, h2, h3, h4, h5, a, i, b, li {
 #header-top-global {
     background-color: #8B1B1B;
     color: white;
-    text-align: center;
+    padding: 0;
+}
+#header-top-global .alert {
+    font-size: 16px;
+    margin: 0;
+    background-image: none;
+    background-color: transparent;
+    border: none;
+    color: white;
 }
 #header-contact .col-lg-8 ul{
     font-size: 20px;
@@ -180,12 +188,12 @@ h1, h2, h3, h4, h5, a, i, b, li {
     height: 500px;
     background-color: rgba(0, 0, 0, 0.4); 
     background: rgba(0, 0, 0, 0.4);
-    padding: 50px;
+    padding: 10px;
 }
 .slide-intro-1 #ShopTimes {
     width: 100%;
     height: 100%;
-    background-color: #66FFFF;
+    background-color: #8C1B1B;
     padding: 25px;
 }
 .slide-intro-1 #ShopTimes h2{
@@ -199,14 +207,6 @@ h1, h2, h3, h4, h5, a, i, b, li {
     list-style: none;
     line-height: 50px;
 }
-
-
-
-
-
-
-
-
 .slide-intro-0 p {
     font-size: 20px;
 }
@@ -217,9 +217,8 @@ h1, h2, h3, h4, h5, a, i, b, li {
     font-size: 20px;
 }
 
+
 /*SUPPORT*/
-
-
 #support-bar {
     background-color: #4C1B1B;
 }
@@ -230,25 +229,26 @@ h1, h2, h3, h4, h5, a, i, b, li {
     color: #fff;
     margin: 0;
     padding: 0px 25px 0px 25px;
-    align-content: center;
     text-align: center;
 }
 #support-bar .col-lg-3 a:hover {
     text-decoration: none;
 }
+
+/*Intro to the team*/
 #IntroAbout h3 {
     text-decoration: underline;
     text-transform: uppercase;
 }
 #IntroAbout button {
     width: 80%;
-    float: left;
 }
 #IntroAbout ul {
     list-style: none;
     font-size: 18px;
     text-transform: uppercase;
 }
+
 
 /*repair quotes*/
 
@@ -346,15 +346,31 @@ h1, h2, h3, h4, h5, a, i, b, li {
 
 
 
-
-
-
-
-
-
-
-
-
+/*Services*/
+#ServicesHeader{
+    background-image: url('../Images/vh-front-desk-bw-1300.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    color: white;
+}
+#ServicesHeader .col-lg-12 {
+    text-align: center;
+    margin-top: 10%;
+}
+#ServicesHeader .col-lg-12 h1 {
+    border-bottom: 1.5px solid #4C1B1B;
+}
+#ServicesHeader .col-lg-12 p {
+    font-size: 20px;
+}
+#ServicesMain {
+    color: black;
+    font-size: 20px;
+}
+#ServicesMain ul {
+    margin: 10px 50px 0px 50px;
+}
 
 
 
@@ -404,6 +420,18 @@ footer {
     }  
     .navbar .divider-vertical {
         display: none;
+    }
+    .slide-intro-0 {
+        width: 400px;
+        height: 400px;
+    }
+    .slide-intro-1 {
+        width: 350px;
+        height: 350px;
+    }
+    .slide-intro-1 #ShopTimes li {
+        font-size: 18px;
+        line-height: 35px;
     }
 }
 @media (max-width: 1199px) {
