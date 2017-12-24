@@ -328,11 +328,15 @@ h1, h2, h3, h4, h5, a, i, b, li {
 
 #AboutDescription {
     padding: 30px;
-    text-align: center;
 }
 #AboutDescription p {
-    text-align: center;
     font-size: 20px;
+}
+#ASEQuestions {
+    text-align: left;
+}
+#ASEQuestions ul {
+    list-style: none;
 }
 #Gallery {
     padding: 50px;
