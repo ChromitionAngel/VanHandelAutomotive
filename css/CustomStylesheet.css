@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, a, i, b, li {
     width: 100%;
 }
 #appointment:hover {
-    background-color: #BD8D46;
+    background-color: #5E716A;
 }
 #appointment p {
     font-size: 18px;
@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, a, i, b, li {
     width: 100%;
 }
 #QuoteButton:hover {
-    background-color: #BD8D46;
+    background-color: #5E716A;
 }
 /*header area*/
 #header nav{
@@ -127,8 +127,6 @@ h1, h2, h3, h4, h5, a, i, b, li {
     color: black;
 } 
 
-
-
 .navbar-default .navbar-brand{
     padding-left: 90px;
 }
@@ -152,7 +150,7 @@ h1, h2, h3, h4, h5, a, i, b, li {
 #carousel .col-lg-12 {
     padding: 0px;
 }
-.carousel .item {
+.carousel-inner .item {
   height: 800px;
   vertical-align: middle;
   background-repeat: no-repeat;
@@ -198,11 +196,11 @@ h1, h2, h3, h4, h5, a, i, b, li {
 }
 .slide-intro-1 #ShopTimes h2{
     text-align: center;
-    color: black;
-    border-bottom: 1px solid #000;
+    color: white;
+    border-bottom: 1px solid #fff;
 }
 .slide-intro-1 #ShopTimes li{
-    color: black;
+    color: white;
     font-size: 20px;
     list-style: none;
     line-height: 50px;
@@ -371,8 +369,19 @@ h1, h2, h3, h4, h5, a, i, b, li {
 #ServicesMain ul {
     margin: 10px 50px 0px 50px;
 }
-
-
+#ServicesCarousel .carousel-inner .item {
+    height: 700px;
+    color: black;
+}
+#ServicesCarousel .service-slide-0 {
+    background-image: url('../Images/wheel-bearing-grease.jpg');
+}
+#ServicesCarousel .service-slide-1 {
+    background-image: url('../Images/oil-change.jpg');
+}
+#ServicesCarousel .service-slide-2 {
+    background-image: url('../Images/change-brake-fluid3.png');
+}
 
 /*footer*/
 footer {
