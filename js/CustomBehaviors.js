@@ -1,6 +1,6 @@
 $(document).ready(function(){
-  $("#linkSupport").dblclick(function() {
-    window.location.replace("/pages/about");
+  $("#LinkServices").dblclick(function() {
+    window.location.replace("/Users/miles/Desktop/GitHub/VanHandelAutomotive/pages/services.html");
   });
 
   $("#LinkAbout").dblclick(function() {
