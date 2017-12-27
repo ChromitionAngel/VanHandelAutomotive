@@ -1,9 +1,15 @@
 $(document).ready(function(){
-  $("#LinkServices").dblclick(function() {
-    window.location.replace("/Users/miles/Desktop/GitHub/VanHandelAutomotive/pages/services.html");
+  $("#LinkServices").click(function() {
+      window.location.replace("/Users/miles/Desktop/GitHub/VanHandelAutomotive/pages/services.html");
   });
 
-  $("#LinkAbout").dblclick(function() {
+  $("#LinkAbout").click(function() {
+    window.location.replace("/Users/miles/Desktop/GitHub/VanHandelAutomotive/pages/about.html");
+  });
+    $("#LinkDirections").click(function() {
+    window.location.replace("/Users/miles/Desktop/GitHub/VanHandelAutomotive/pages/about.html");
+  });
+    $("#LinkContact").click(function() {
     window.location.replace("/Users/miles/Desktop/GitHub/VanHandelAutomotive/pages/about.html");
   });
 })/*end doc.ready*/;

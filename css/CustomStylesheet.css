@@ -132,9 +132,29 @@ h1, h2, h3, h4, h5, a, i, b, li {
 }
 
 
-
-
-
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown:hover{
+    background-color: rgba(0,0,0,.4);
+}
+.dropdown:active {
+    background-color: transparent;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: transparent;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    background-color: transparent;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    background-color: black;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a{
+    background-image: none;
+        background-image: -webkit-gradient(none);
+    background-image: -webkit-linear-gradient(none);
+}
 
 
 
@@ -240,6 +260,10 @@ h1, h2, h3, h4, h5, a, i, b, li {
 }
 #IntroAbout button {
     width: 80%;
+}
+#IntroAbout .col-lg-6 p {
+    line-height: 25px;
+    font-size: 20px;
 }
 #IntroAbout ul {
     list-style: none;
