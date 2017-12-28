@@ -449,9 +449,11 @@ h1, h2, h3, h4, h5, a, i, b, li {
     text-transform: uppercase;
     color: white;
 }
+#ContactMain .col-lg-12 p, h2{
+    text-align: center;
+}
 
-
-
+#success_message{ display: none;}
 
 
 

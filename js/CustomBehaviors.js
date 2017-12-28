@@ -1,18 +1,36 @@
 $(document).ready(function(){
   $("#LinkServices").click(function() {
-      window.location.replace("/Users/miles/Desktop/GitHub/VanHandelAutomotive/pages/services.html");
+      window.location.replace("pages/services.html");
   });
 
   $("#LinkAbout").click(function() {
-    window.location.replace("/Users/miles/Desktop/GitHub/VanHandelAutomotive/pages/about.html");
+    window.location.replace("pages/about.html");
   });
     $("#LinkDirections").click(function() {
-    window.location.replace("/Users/miles/Desktop/GitHub/VanHandelAutomotive/pages/about.html");
+    window.location.replace("pages/about.html");
   });
     $("#LinkContact").click(function() {
-    window.location.replace("/Users/miles/Desktop/GitHub/VanHandelAutomotive/pages/about.html");
+    window.location.replace("pages/about.html");
   });
 })/*end doc.ready*/;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 function scrollToThis(thing){ /*input "top" for scroll to top */
   if (thing=="top"){
@@ -34,3 +52,7 @@ function openTeam(evt, teamName) {
     document.getElementById(teamName).style.display = "block";
     evt.currentTarget.className += " active";
 }
+
+
+
+
