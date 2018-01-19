@@ -1,3 +1,11 @@
+/*
+Theme Name: Vanhandel
+Theme URI: http://wordpress.org/themes/vanhandel
+Author: Miles Smith
+Description: 2017 Wordpress theme using bootstrap v3.7 for vahandel automotive
+
+*/
+
 /* custom classes*/
 
 .bold {
@@ -14,7 +22,6 @@ h1, h2, h3, h4, h5, a, i, b, li {
     width: 100%;
     height: 100%;
 }
- 
 #appointment {
     background-color: transparent;
     border-width: 4px;
@@ -27,7 +34,7 @@ h1, h2, h3, h4, h5, a, i, b, li {
     width: 100%;
 }
 #appointment:hover {
-    background-color: #5E716A;
+    background-color: #BD8D46;
 }
 #appointment p {
     font-size: 18px;
@@ -44,7 +51,7 @@ h1, h2, h3, h4, h5, a, i, b, li {
     width: 100%;
 }
 #QuoteButton:hover {
-    background-color: #5E716A;
+    background-color: #BD8D46;
 }
 /*header area*/
 #header nav{
@@ -128,34 +135,16 @@ h1, h2, h3, h4, h5, a, i, b, li {
     color: black;
 } 
 
+
+
 .navbar-default .navbar-brand{
     padding-left: 90px;
 }
 
 
-.dropdown:hover .dropdown-menu {
-    display: block;
-}
-.dropdown:hover{
-    background-color: rgba(0,0,0,.4);
-}
-.dropdown:active {
-    background-color: transparent;
-}
-.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
-    background-color: transparent;
-}
-.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
-    background-color: transparent;
-}
-.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
-    background-color: black;
-}
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a{
-    background-image: none;
-        background-image: -webkit-gradient(none);
-    background-image: -webkit-linear-gradient(none);
-}
+
+
+
 
 
 
@@ -171,22 +160,19 @@ h1, h2, h3, h4, h5, a, i, b, li {
 #carousel .col-lg-12 {
     padding: 0px;
 }
-.carousel-inner .item {
+.carousel .item {
   height: 800px;
   vertical-align: middle;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .slide0{
-    background-image: url('../Images/IMG_8897.JPG');
     background-position: 50% 30%;
 }
 .slide1{
-    background-image: url('../Images/IMG_8891.JPG');
     background-position: 50% 30%;
 }
 .slide2{
-    background-image: url('../Images/IMG_8890%20(1).JPG');
     background-position: 50% 30%;
 }
 
@@ -212,17 +198,17 @@ h1, h2, h3, h4, h5, a, i, b, li {
 .slide-intro-1 #ShopTimes {
     width: 100%;
     height: 100%;
-    background-color: #8C1B1B;
+    background-color: #fff;
     padding: 25px;
 }
 .slide-intro-1 #ShopTimes h2{
     text-align: center;
-    color: white;
-    border-bottom: 1px solid #fff;
+    color: black;
+    border-bottom: 1px solid #000;
 }
 .slide-intro-1 #ShopTimes li{
-    color: white;
-    font-size: 20px;
+    color: #8C1B1B;
+    font-size: 24px;
     list-style: none;
     line-height: 50px;
 }
@@ -261,10 +247,6 @@ h1, h2, h3, h4, h5, a, i, b, li {
 }
 #IntroAbout button {
     width: 80%;
-}
-#IntroAbout .col-lg-6 p {
-    line-height: 25px;
-    font-size: 20px;
 }
 #IntroAbout ul {
     list-style: none;
@@ -394,73 +376,6 @@ h1, h2, h3, h4, h5, a, i, b, li {
 #ServicesMain ul {
     margin: 10px 50px 0px 50px;
 }
-#ServicesCarousel .carousel-inner .item {
-    height: 700px;
-    color: black;
-}
-#ServicesCarousel .service-slide-0 {
-    background-image: url('../Images/wheel-bearing-grease.jpg');
-}
-#ServicesCarousel .service-slide-1 {
-    background-image: url('../Images/oil-change.jpg');
-}
-#ServicesCarousel .service-slide-2 {
-    background-image: url('../Images/change-brake-fluid3.png');
-}
-
-
-
-/*Directions*/
-#DirectionsHead {
-    background-image: url('../Images/building-vh-1-1000.jpg');    
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 100% 50%;
-    text-align: center;
-    padding-top: 200px;
-    height: 450px;
-}
-#DirectionsHead h1 {
-    border-bottom: 1px solid #fff;
-    text-transform: uppercase;
-    color: white;
-}
-#DirectionsMain {
-    padding-top: 25px;
-}
-#DirectionsMain p {
-    font-size: 22px;
-}
-#DirectionsMain li {
-    font-size: 22px;
-}
-
-/*Contact*/
-#ContactHead {
-    background-image: url('../Images/vh-front-desk-bw-1300.jpg');    
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 100% 10%;
-    text-align: center;
-    padding-top: 200px;
-    height: 450px;
-}
-#ContactHead h1 {
-    border-bottom: 1px solid #fff;
-    text-transform: uppercase;
-    color: white;
-}
-#ContactMain .col-lg-12 p, h2{
-    text-align: center;
-}
-
-
-
-
-
-
-
-
 
 
 
