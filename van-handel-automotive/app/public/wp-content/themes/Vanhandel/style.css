@@ -179,12 +179,13 @@ h1, h2, h3, h4, h5, a, i, b, li {
 .slide-intro-0 {
     width: 700px;
     height: 550px;
+    max-height: 550px;
     background-color: rgba(0, 0, 0, 0.4); 
     background: rgba(0, 0, 0, 0.4);
     padding: 50px;
 }
 .slide-intro-0 button {
-    margin-top: 150px;
+    margin-top: 15;
     background-color: blue;
     background-image: none;
 }

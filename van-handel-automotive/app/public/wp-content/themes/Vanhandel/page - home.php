@@ -21,11 +21,10 @@
                           <div class="carousel-inner" role="listbox">
                             <div class="item active" style="background-image: url('<?php the_field('carousel_image_1') ?>')">
                               <div class="carousel-caption slide-intro-0">
-                                    <h2>Welcome to Van Handel Automotive</h2>
-                                    <i>The best automotive shop in Sisters</i>
-                                    <p>We do automotive work, back massages, tech repair, and plumbin! </p>
-                                      <p>Impressed?? We know. But feel free to let us or our competitors  know anytime</p>
-                                      <b>-Love, Miles</b>
+                                    <h2><?php the_field('carousel_head') ?></h2>
+                                    <p>
+                                    <?php the_field('carousel_intro_text') ?>
+                                    </p>
                                     <ul class="list list-inline">
                                         <li><button id="appointment" style="color: white; font-size: 18px;">Make an Appointment</button></li>
                                         <li><button id="QuoteButton" style=" font-size: 18px;">
