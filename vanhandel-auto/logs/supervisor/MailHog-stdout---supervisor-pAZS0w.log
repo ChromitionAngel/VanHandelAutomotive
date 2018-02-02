@@ -1,0 +1,304 @@
+[HTTP] Binding to address: :1080
+Creating API v1 with WebPath: 
+Creating API v2 with WebPath: 
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+Got message in APIv2 websocket channel
+[APIv2] BROADCAST /api/v2/websocket
+Got message in APIv1 event stream
+Sending content: {
+  "ID": "-hpxpQKxsA_ccK0WV8ZmAVDsodOvz4uogYICGmbJrJM=@mailhog.example",
+  "From": {
+    "Relays": null,
+    "Mailbox": "www-data",
+    "Domain": "c759a21223cd",
+    "Params": ""
+  },
+  "To": [
+    {
+      "Relays": null,
+      "Mailbox": "mailhog",
+      "Domain": "flywheel.local",
+      "Params": ""
+    }
+  ],
+  "Content": {
+    "Headers": {
+      "Content-Type": [
+        "text/plain; charset=UTF-8"
+      ],
+      "Date": [
+        "Fri, 2 Feb 2018 22:25:44 +0000"
+      ],
+      "From": [
+        "Miles \u003cwordpress@vanhandel-auto.local\u003e"
+      ],
+      "MIME-Version": [
+        "1.0"
+      ],
+      "Message-ID": [
+        "\u003c19c1986eb67db98deac34dc22001e22a@vanhandel-auto.local\u003e"
+      ],
+      "Received": [
+        "from localhost by mailhog.example (MailHog)\r\n          id -hpxpQKxsA_ccK0WV8ZmAVDsodOvz4uogYICGmbJrJM=@mailhog.example; Fri, 02 Feb 2018 22:25:44 +0000"
+      ],
+      "Reply-To": [
+        "miles.smith010@gmail.com"
+      ],
+      "Return-Path": [
+        "\u003cwww-data@c759a21223cd\u003e"
+      ],
+      "Subject": [
+        "Van Handel Auto \"New Site\""
+      ],
+      "To": [
+        "dev-email@flywheel.local"
+      ],
+      "X-Mailer": [
+        "PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)"
+      ],
+      "X-PHP-Originating-Script": [
+        "1000:class-phpmailer.php"
+      ]
+    },
+    "Body": "From: Miles \u003cmiles.smith010@gmail.com\u003e\r\nSubject: New Site\r\n\r\nMessage Body:\r\nYou have a new site\r\n\r\n-- \r\nThis e-mail was sent from a contact form on Van Handel Auto (http://vanhandel-auto.local)\r\n",
+    "Size": 634,
+    "MIME": null
+  },
+  "Created": "2018-02-02T22:25:44.617771563Z",
+  "MIME": null,
+  "Raw": {
+    "From": "www-data@c759a21223cd",
+    "To": [
+      "mailhog@flywheel.local"
+    ],
+    "Data": "To: dev-email@flywheel.local\r\nSubject: Van Handel Auto \"New Site\"\r\nX-PHP-Originating-Script: 1000:class-phpmailer.php\r\nDate: Fri, 2 Feb 2018 22:25:44 +0000\r\nFrom: Miles \u003cwordpress@vanhandel-auto.local\u003e\r\nReply-To: miles.smith010@gmail.com\r\nMessage-ID: \u003c19c1986eb67db98deac34dc22001e22a@vanhandel-auto.local\u003e\r\nX-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)\r\nMIME-Version: 1.0\r\nContent-Type: text/plain; charset=UTF-8\r\n\r\nFrom: Miles \u003cmiles.smith010@gmail.com\u003e\r\nSubject: New Site\r\n\r\nMessage Body:\r\nYou have a new site\r\n\r\n-- \r\nThis e-mail was sent from a contact form on Van Handel Auto (http://vanhandel-auto.local)\r\n",
+    "Helo": "localhost"
+  }
+}
+
+[APIv1] BROADCAST /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+Got message in APIv2 websocket channel
+[APIv2] BROADCAST /api/v2/websocket
+Got message in APIv1 event stream
+Sending content: {
+  "ID": "MEcAaPp4lHys0I9Vn4lA_lGs8XSzPIcKKOWL651iMSM=@mailhog.example",
+  "From": {
+    "Relays": null,
+    "Mailbox": "www-data",
+    "Domain": "c759a21223cd",
+    "Params": ""
+  },
+  "To": [
+    {
+      "Relays": null,
+      "Mailbox": "mailhog",
+      "Domain": "flywheel.local",
+      "Params": ""
+    }
+  ],
+  "Content": {
+    "Headers": {
+      "Content-Type": [
+        "text/plain; charset=UTF-8"
+      ],
+      "Date": [
+        "Fri, 2 Feb 2018 22:26:21 +0000"
+      ],
+      "From": [
+        "Miles \u003cwordpress@vanhandel-auto.local\u003e"
+      ],
+      "MIME-Version": [
+        "1.0"
+      ],
+      "Message-ID": [
+        "\u003c29534992be9aee161b93899e99faaa20@vanhandel-auto.local\u003e"
+      ],
+      "Received": [
+        "from localhost by mailhog.example (MailHog)\r\n          id MEcAaPp4lHys0I9Vn4lA_lGs8XSzPIcKKOWL651iMSM=@mailhog.example; Fri, 02 Feb 2018 22:26:21 +0000"
+      ],
+      "Reply-To": [
+        "miles.smith010@gmail.com"
+      ],
+      "Return-Path": [
+        "\u003cwww-data@c759a21223cd\u003e"
+      ],
+      "Subject": [
+        "Van Handel Auto \"New Site\""
+      ],
+      "To": [
+        "dev-email@flywheel.local"
+      ],
+      "X-Mailer": [
+        "PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)"
+      ],
+      "X-PHP-Originating-Script": [
+        "1000:class-phpmailer.php"
+      ]
+    },
+    "Body": "From: Miles \u003cmiles.smith010@gmail.com\u003e\r\nSubject: New Site\r\n\r\nMessage Body:\r\nYou have a new site\r\n\r\n-- \r\nThis e-mail was sent from a contact form on Van Handel Auto (http://vanhandel-auto.local)\r\n",
+    "Size": 634,
+    "MIME": null
+  },
+  "Created": "2018-02-02T22:26:21.603255746Z",
+  "MIME": null,
+  "Raw": {
+    "From": "www-data@c759a21223cd",
+    "To": [
+      "mailhog@flywheel.local"
+    ],
+    "Data": "To: dev-email@flywheel.local\r\nSubject: Van Handel Auto \"New Site\"\r\nX-PHP-Originating-Script: 1000:class-phpmailer.php\r\nDate: Fri, 2 Feb 2018 22:26:21 +0000\r\nFrom: Miles \u003cwordpress@vanhandel-auto.local\u003e\r\nReply-To: miles.smith010@gmail.com\r\nMessage-ID: \u003c29534992be9aee161b93899e99faaa20@vanhandel-auto.local\u003e\r\nX-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)\r\nMIME-Version: 1.0\r\nContent-Type: text/plain; charset=UTF-8\r\n\r\nFrom: Miles \u003cmiles.smith010@gmail.com\u003e\r\nSubject: New Site\r\n\r\nMessage Body:\r\nYou have a new site\r\n\r\n-- \r\nThis e-mail was sent from a contact form on Van Handel Auto (http://vanhandel-auto.local)\r\n",
+    "Helo": "localhost"
+  }
+}
+
+[APIv1] BROADCAST /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+Got message in APIv2 websocket channel
+[APIv2] BROADCAST /api/v2/websocket
+Got message in APIv1 event stream
+Sending content: {
+  "ID": "pTBmHeMrpk9A9Du-QQxBOb99wXYgHEuJtmZc0v3GnbY=@mailhog.example",
+  "From": {
+    "Relays": null,
+    "Mailbox": "www-data",
+    "Domain": "c759a21223cd",
+    "Params": ""
+  },
+  "To": [
+    {
+      "Relays": null,
+      "Mailbox": "mailhog",
+      "Domain": "flywheel.local",
+      "Params": ""
+    }
+  ],
+  "Content": {
+    "Headers": {
+      "Content-Type": [
+        "text/plain; charset=UTF-8"
+      ],
+      "Date": [
+        "Fri, 2 Feb 2018 22:33:31 +0000"
+      ],
+      "From": [
+        "hate \u003cwordpress@vanhandel-auto.local\u003e"
+      ],
+      "MIME-Version": [
+        "1.0"
+      ],
+      "Message-ID": [
+        "\u003c3d4d9f991c053bad3cde00d58d99123f@vanhandel-auto.local\u003e"
+      ],
+      "Received": [
+        "from localhost by mailhog.example (MailHog)\r\n          id pTBmHeMrpk9A9Du-QQxBOb99wXYgHEuJtmZc0v3GnbY=@mailhog.example; Fri, 02 Feb 2018 22:33:31 +0000"
+      ],
+      "Reply-To": [
+        "kj.riverrat@gmail.com"
+      ],
+      "Return-Path": [
+        "\u003cwww-data@c759a21223cd\u003e"
+      ],
+      "Subject": [
+        "Van Handel Auto \"idk\""
+      ],
+      "To": [
+        "miles.smith010@gmail.com"
+      ],
+      "X-Mailer": [
+        "PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)"
+      ],
+      "X-PHP-Originating-Script": [
+        "1000:class-phpmailer.php"
+      ]
+    },
+    "Body": "From: hate \u003ckj.riverrat@gmail.com\u003e\r\nSubject: idk\r\n\r\nMessage Body:\r\nYou have a new site\r\n\r\n-- \r\nThis e-mail was sent from a contact form on Van Handel Auto (http://vanhandel-auto.local)\r\n",
+    "Size": 616,
+    "MIME": null
+  },
+  "Created": "2018-02-02T22:33:31.173226036Z",
+  "MIME": null,
+  "Raw": {
+    "From": "www-data@c759a21223cd",
+    "To": [
+      "mailhog@flywheel.local"
+    ],
+    "Data": "To: miles.smith010@gmail.com\r\nSubject: Van Handel Auto \"idk\"\r\nX-PHP-Originating-Script: 1000:class-phpmailer.php\r\nDate: Fri, 2 Feb 2018 22:33:31 +0000\r\nFrom: hate \u003cwordpress@vanhandel-auto.local\u003e\r\nReply-To: kj.riverrat@gmail.com\r\nMessage-ID: \u003c3d4d9f991c053bad3cde00d58d99123f@vanhandel-auto.local\u003e\r\nX-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)\r\nMIME-Version: 1.0\r\nContent-Type: text/plain; charset=UTF-8\r\n\r\nFrom: hate \u003ckj.riverrat@gmail.com\u003e\r\nSubject: idk\r\n\r\nMessage Body:\r\nYou have a new site\r\n\r\n-- \r\nThis e-mail was sent from a contact form on Van Handel Auto (http://vanhandel-auto.local)\r\n",
+    "Helo": "localhost"
+  }
+}
+
+[APIv1] BROADCAST /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events

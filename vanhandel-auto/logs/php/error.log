@@ -1,0 +1,130 @@
+[09-Jan-2018 04:26:49 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[09-Jan-2018 04:26:49 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[09-Jan-2018 04:26:50 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[09-Jan-2018 04:26:50 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[09-Jan-2018 04:26:51 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[09-Jan-2018 04:26:51 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[13-Jan-2018 04:24:37 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[13-Jan-2018 04:24:37 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[13-Jan-2018 04:24:38 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[13-Jan-2018 04:24:38 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[13-Jan-2018 06:50:29 UTC] PHP Warning:  require(/the/path/to/your/wp-blog-header.php): failed to open stream: No such file or directory in /app/public/wp-content/themes/Vanhandel/page - home.php on line 185
+[13-Jan-2018 06:50:29 UTC] PHP Fatal error:  require(): Failed opening required '/the/path/to/your/wp-blog-header.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /app/public/wp-content/themes/Vanhandel/page - home.php on line 185
+[13-Jan-2018 07:13:40 UTC] PHP Warning:  require_once(/app/public/wp-content/themes/Vanhandel/inc/satisfy-blog-loop.php): failed to open stream: No such file or directory in /app/public/wp-content/themes/Vanhandel/functions.php on line 12
+[13-Jan-2018 07:13:40 UTC] PHP Fatal error:  require_once(): Failed opening required '/app/public/wp-content/themes/Vanhandel/inc/satisfy-blog-loop.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /app/public/wp-content/themes/Vanhandel/functions.php on line 12
+[13-Jan-2018 07:14:22 UTC] PHP Warning:  require_once(/app/public/wp-content/themes/Vanhandel/inc/satisfy-blog-loop.php): failed to open stream: No such file or directory in /app/public/wp-content/themes/Vanhandel/functions.php on line 12
+[13-Jan-2018 07:14:22 UTC] PHP Fatal error:  require_once(): Failed opening required '/app/public/wp-content/themes/Vanhandel/inc/satisfy-blog-loop.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /app/public/wp-content/themes/Vanhandel/functions.php on line 12
+[13-Jan-2018 07:14:36 UTC] PHP Warning:  require_once(/app/public/wp-content/themes/Vanhandel/inc/satisfy-blog-loop.php): failed to open stream: No such file or directory in /app/public/wp-content/themes/Vanhandel/functions.php on line 12
+[13-Jan-2018 07:14:36 UTC] PHP Fatal error:  require_once(): Failed opening required '/app/public/wp-content/themes/Vanhandel/inc/satisfy-blog-loop.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /app/public/wp-content/themes/Vanhandel/functions.php on line 12
+[13-Jan-2018 07:14:41 UTC] PHP Warning:  require_once(/app/public/wp-content/themes/Vanhandel/inc/satisfy-blog-loop.php): failed to open stream: No such file or directory in /app/public/wp-content/themes/Vanhandel/functions.php on line 12
+[13-Jan-2018 07:14:41 UTC] PHP Fatal error:  require_once(): Failed opening required '/app/public/wp-content/themes/Vanhandel/inc/satisfy-blog-loop.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /app/public/wp-content/themes/Vanhandel/functions.php on line 12
+[13-Jan-2018 07:14:41 UTC] PHP Warning:  require_once(/app/public/wp-content/themes/Vanhandel/inc/satisfy-blog-loop.php): failed to open stream: No such file or directory in /app/public/wp-content/themes/Vanhandel/functions.php on line 12
+[13-Jan-2018 07:14:41 UTC] PHP Fatal error:  require_once(): Failed opening required '/app/public/wp-content/themes/Vanhandel/inc/satisfy-blog-loop.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /app/public/wp-content/themes/Vanhandel/functions.php on line 12
+[13-Jan-2018 07:14:42 UTC] PHP Warning:  require_once(/app/public/wp-content/themes/Vanhandel/inc/satisfy-blog-loop.php): failed to open stream: No such file or directory in /app/public/wp-content/themes/Vanhandel/functions.php on line 12
+[13-Jan-2018 07:14:42 UTC] PHP Fatal error:  require_once(): Failed opening required '/app/public/wp-content/themes/Vanhandel/inc/satisfy-blog-loop.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /app/public/wp-content/themes/Vanhandel/functions.php on line 12
+[13-Jan-2018 07:14:42 UTC] PHP Warning:  require_once(/app/public/wp-content/themes/Vanhandel/inc/satisfy-blog-loop.php): failed to open stream: No such file or directory in /app/public/wp-content/themes/Vanhandel/functions.php on line 12
+[13-Jan-2018 07:14:42 UTC] PHP Fatal error:  require_once(): Failed opening required '/app/public/wp-content/themes/Vanhandel/inc/satisfy-blog-loop.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /app/public/wp-content/themes/Vanhandel/functions.php on line 12
+[13-Jan-2018 07:14:47 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[13-Jan-2018 07:24:35 UTC] PHP Warning:  require_once(/app/public/wp-content/themes/Vanhandel/inc/satisfy-blog-loop.php): failed to open stream: No such file or directory in /app/public/wp-content/themes/Vanhandel/functions.php on line 12
+[13-Jan-2018 07:24:35 UTC] PHP Fatal error:  require_once(): Failed opening required '/app/public/wp-content/themes/Vanhandel/inc/satisfy-blog-loop.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /app/public/wp-content/themes/Vanhandel/functions.php on line 12
+[13-Jan-2018 07:24:50 UTC] PHP Warning:  require_once(/app/public/wp-content/themes/Vanhandel/inc/satisfy-blog-loop.php): failed to open stream: No such file or directory in /app/public/wp-content/themes/Vanhandel/functions.php on line 12
+[13-Jan-2018 07:24:50 UTC] PHP Fatal error:  require_once(): Failed opening required '/app/public/wp-content/themes/Vanhandel/inc/satisfy-blog-loop.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /app/public/wp-content/themes/Vanhandel/functions.php on line 12
+[13-Jan-2018 07:27:10 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /app/public/wp-includes/functions.php on line 390
+[13-Jan-2018 07:27:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /app/public/wp-includes/functions.php:8
+Stack trace:
+#0 /app/public/wp-settings.php(98): require()
+#1 /app/public/wp-config.php(86): require_once('/app/public/wp-...')
+#2 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#3 /app/public/wp-blog-header.php(13): require_once('/app/public/wp-...')
+#4 /app/public/index.php(17): require('/app/public/wp-...')
+#5 {main}
+  thrown in /app/public/wp-includes/functions.php on line 8
+[13-Jan-2018 07:27:29 UTC] PHP Parse error:  syntax error, unexpected '>', expecting end of file in /app/public/wp-includes/functions.php on line 389
+[13-Jan-2018 07:27:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /app/public/wp-includes/functions.php:8
+Stack trace:
+#0 /app/public/wp-settings.php(98): require()
+#1 /app/public/wp-config.php(86): require_once('/app/public/wp-...')
+#2 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#3 /app/public/wp-blog-header.php(13): require_once('/app/public/wp-...')
+#4 /app/public/index.php(17): require('/app/public/wp-...')
+#5 {main}
+  thrown in /app/public/wp-includes/functions.php on line 8
+[13-Jan-2018 07:27:56 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /app/public/wp-includes/functions.php on line 390
+[13-Jan-2018 07:27:57 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /app/public/wp-includes/functions.php on line 390
+[20-Jan-2018 08:14:23 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[20-Jan-2018 08:14:23 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[20-Jan-2018 08:14:24 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[20-Jan-2018 18:51:32 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 18:52:33 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 18:54:34 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 18:56:35 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 18:58:36 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 19:00:37 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 19:38:28 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 19:39:28 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 19:41:28 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 19:43:28 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 19:45:28 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 19:46:28 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 19:48:28 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 19:50:28 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 19:52:28 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 19:54:28 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 19:55:36 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 19:56:36 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 19:58:36 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 20:00:36 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 20:02:36 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 20:04:36 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 20:11:32 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 20:12:33 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 20:14:34 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 20:15:35 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 20:17:36 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 20:19:37 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 20:21:18 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 20:22:18 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 20:24:18 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 20:26:18 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 20:28:18 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 20:30:18 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 20:31:52 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 20:32:52 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 20:33:52 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 20:34:52 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 20:35:53 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 20:37:54 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 20:38:56 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 20:39:56 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 20:40:57 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 20:42:58 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 20:44:58 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 20:46:59 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 20:49:01 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 20:51:01 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 21:33:05 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 21:33:45 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[20-Jan-2018 21:33:45 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 2
+[21-Jan-2018 22:14:45 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[21-Jan-2018 22:14:45 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[21-Jan-2018 22:14:45 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[21-Jan-2018 22:14:45 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[21-Jan-2018 22:15:02 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[21-Jan-2018 22:15:03 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[21-Jan-2018 22:15:03 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[21-Jan-2018 22:15:03 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[22-Jan-2018 04:28:02 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[22-Jan-2018 04:28:02 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[22-Jan-2018 04:28:02 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[22-Jan-2018 04:28:02 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[01-Feb-2018 19:06:21 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/Vanhandel/functions.php on line 7
+[01-Feb-2018 19:06:49 UTC] PHP Parse error:  syntax error, unexpected 'var' (T_VAR), expecting end of file in /app/public/wp-content/themes/Vanhandel/functions.php on line 12
+[01-Feb-2018 22:47:01 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /app/public/wp-content/themes/Vanhandel/page - home.php on line 170
+[02-Feb-2018 21:29:19 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[02-Feb-2018 21:29:19 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[02-Feb-2018 21:29:19 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[02-Feb-2018 21:29:19 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[02-Feb-2018 21:43:05 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /app/public/wp-content/themes/Vanhandel/page - home.php on line 170
+[02-Feb-2018 21:43:11 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /app/public/wp-content/themes/Vanhandel/page - home.php on line 170
+[02-Feb-2018 21:49:21 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in /app/public/wp-content/themes/Vanhandel/page - home.php on line 188
+[02-Feb-2018 22:24:20 UTC] PHP Parse error:  syntax error, unexpected 'id' (T_STRING), expecting ']' in /app/public/wp-content/themes/Vanhandel/page - contact.php on line 33
